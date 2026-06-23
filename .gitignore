@@ -67,3 +67,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+/CyberSOC/src/CyberSOC.Shared/obj
+/CyberSOC/src/CyberSOC.Domain/obj
+/CyberSOC/src/CyberSOC.Infrastructure/obj
+/CyberSOC/src/CyberSOC.Persistence/obj
+/CyberSOC/.vs
+/CyberSOC/src/CyberSOC.WebApi/obj
+/CyberSOC/src/CyberSOC.Workers/obj
+
+/CyberSOC/tests/CyberSOC.ArchitectureTests/obj
+/CyberSOC/tests/CyberSOC.IntegrationTests/obj
+/CyberSOC/tests/CyberSOC.UnitTests/obj
+/CyberSOC/.vs
