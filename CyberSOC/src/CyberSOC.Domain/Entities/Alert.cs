@@ -71,6 +71,15 @@ namespace CyberSOC.Domain.Entities
 
         public void Escalate() => Status = AlertStatus.Escalated;
         public void Resolve() => Status = AlertStatus.Resolved;
+
+        /// <summary>Appends threat-intel reputation context once a match is found (UC-02).
+        /// Idempotent-ish by design: called once per alert right after creation, before save.</summary>
+        public void EnrichWithThreatIntelContext(string context)
+        {
+            if (string.IsNullOrWhiteSpace(context)) return;
+            Reason += $" | Threat intel: {context}";
+            if (Severity < Severity.High) Severity = Severity.High; // a known-bad IOC match escalates severity
+        }
     }
 
 }

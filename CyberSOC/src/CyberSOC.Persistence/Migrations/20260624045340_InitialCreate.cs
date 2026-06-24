@@ -32,6 +32,24 @@ namespace CyberSOC.Persistence.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Indicators",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Type = table.Column<int>(type: "int", nullable: false),
+                    Value = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Source = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Confidence = table.Column<int>(type: "int", nullable: false),
+                    FirstSeen = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    LastSeen = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    Tags = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Indicators", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "SecurityEvents",
                 columns: table => new
                 {
@@ -80,6 +98,9 @@ namespace CyberSOC.Persistence.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Alerts");
+
+            migrationBuilder.DropTable(
+                name: "Indicators");
 
             migrationBuilder.DropTable(
                 name: "SecurityEvents");

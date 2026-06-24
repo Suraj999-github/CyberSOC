@@ -3,6 +3,7 @@ using CyberSOC.Domain.Enums;
 
 namespace CyberSOC.Domain.Detection.Rules
 {
+
     /// <summary>
     /// Detects API attack patterns by counting failed requests per source IP within
     /// a sliding time window. This is the first concrete rule for UC-01 (API Attack
@@ -27,7 +28,7 @@ namespace CyberSOC.Domain.Detection.Rules
             var alerts = new List<Alert>();
 
             var apiFailures = candidateEvents
-                .Where(e => e.EventType == SecurityEventType.ApiRequest && e.Outcome == EventOutcome.Failure)
+               // .Where(e => e.EventType == SecurityEventType.ApiRequest && e.Outcome == EventOutcome.Failure)
                 .GroupBy(e => e.Actor.IpAddress);
 
             foreach (var group in apiFailures)
@@ -42,8 +43,8 @@ namespace CyberSOC.Domain.Detection.Rules
                         .TakeWhile(e => e.Timestamp - windowStart <= _window)
                         .ToList();
 
-                    if (windowEvents.Count < _failureThreshold)
-                        continue;
+                    //if (windowEvents.Count < _failureThreshold)
+                    //    continue;
 
                     var sourceIp = group.Key;
                     var endpoints = windowEvents.Select(e => e.TargetResource).Distinct().ToList();

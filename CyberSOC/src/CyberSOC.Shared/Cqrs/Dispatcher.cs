@@ -6,6 +6,7 @@ namespace CyberSOC.Shared.Cqrs
     {
         Task<TResponse> Send<TResponse>(IRequest<TResponse> request, CancellationToken cancellationToken = default);
     }
+
     /// <summary>
     /// Free, in-house replacement for MediatR's ISender/IMediator.
     /// Resolves the handler for a request, then wraps execution with every

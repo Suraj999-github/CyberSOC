@@ -9,25 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A24687A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{D9BB4BE5-7DEB-4E41-A123-07648FA29F63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Domain", "src\CyberSOC.Domain\CyberSOC.Domain.csproj", "{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Domain", "src\CyberSOC.Domain\CyberSOC.Domain.csproj", "{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Infrastructure", "src\CyberSOC.Infrastructure\CyberSOC.Infrastructure.csproj", "{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Infrastructure", "src\CyberSOC.Infrastructure\CyberSOC.Infrastructure.csproj", "{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Persistence", "src\CyberSOC.Persistence\CyberSOC.Persistence.csproj", "{EFEACA46-B086-4954-A896-C96496BA3406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Persistence", "src\CyberSOC.Persistence\CyberSOC.Persistence.csproj", "{EFEACA46-B086-4954-A896-C96496BA3406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Workers", "src\CyberSOC.Workers\CyberSOC.Workers.csproj", "{54CCED7E-6B2A-42DA-BF1F-F7BF1F8F6246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Workers", "src\CyberSOC.Workers\CyberSOC.Workers.csproj", "{54CCED7E-6B2A-42DA-BF1F-F7BF1F8F6246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Shared", "src\CyberSOC.Shared\CyberSOC.Shared.csproj", "{C6B20B9A-904B-436B-A776-34DD50324434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Shared", "src\CyberSOC.Shared\CyberSOC.Shared.csproj", "{C6B20B9A-904B-436B-A776-34DD50324434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.UnitTests", "tests\CyberSOC.UnitTests\CyberSOC.UnitTests.csproj", "{EB6C9A73-C9FD-4375-A9DD-CE09973E55B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.UnitTests", "tests\CyberSOC.UnitTests\CyberSOC.UnitTests.csproj", "{EB6C9A73-C9FD-4375-A9DD-CE09973E55B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.IntegrationTests", "tests\CyberSOC.IntegrationTests\CyberSOC.IntegrationTests.csproj", "{EE5122EF-A1AA-41FA-BB54-C9272DD9F2F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.IntegrationTests", "tests\CyberSOC.IntegrationTests\CyberSOC.IntegrationTests.csproj", "{EE5122EF-A1AA-41FA-BB54-C9272DD9F2F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.ArchitectureTests", "tests\CyberSOC.ArchitectureTests\CyberSOC.ArchitectureTests.csproj", "{832D5E05-757B-43B7-A8B1-A54EB1DB4DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.ArchitectureTests", "tests\CyberSOC.ArchitectureTests\CyberSOC.ArchitectureTests.csproj", "{832D5E05-757B-43B7-A8B1-A54EB1DB4DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Application", "src\CyberSOC.Application\CyberSOC.Application.csproj", "{681C3ED4-7180-49C7-A5F6-3852A82EE81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.Application", "src\CyberSOC.Application\CyberSOC.Application.csproj", "{681C3ED4-7180-49C7-A5F6-3852A82EE81D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.WebApi", "src\CyberSOC.WebApi\CyberSOC.WebApi.csproj", "{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSOC.WebApi", "src\CyberSOC.WebApi\CyberSOC.WebApi.csproj", "{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSOC.Web", "frontend\CyberSOC.Web\CyberSOC.Web.csproj", "{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{832D5E05-757B-43B7-A8B1-A54EB1DB4DCB} = {1A24687A-47B6-409A-9596-85AE40029D62}
 		{681C3ED4-7180-49C7-A5F6-3852A82EE81D} = {51F45A1C-87B7-49E3-A123-ADC6680BAE49}
 		{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0} = {51F45A1C-87B7-49E3-A123-ADC6680BAE49}
+		{207AE75E-4B0C-441E-AC77-29EBEDAD78A2} = {D9BB4BE5-7DEB-4E41-A123-07648FA29F63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E1D120-51F2-4DCD-A808-A760C5FA24F6}

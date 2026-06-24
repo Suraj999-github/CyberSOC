@@ -129,6 +129,40 @@ namespace CyberSOC.Persistence.Migrations
                     b.ToTable("SecurityEvents", (string)null);
                 });
 
+            modelBuilder.Entity("CyberSOC.Domain.ThreatIntel.IndicatorOfCompromise", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Confidence")
+                        .HasColumnType("int");
+
+                    b.Property<DateTimeOffset>("FirstSeen")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("LastSeen")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("Source")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tags")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Indicators");
+                });
+
             modelBuilder.Entity("CyberSOC.Domain.Entities.SecurityEvent", b =>
                 {
                     b.OwnsOne("CyberSOC.Domain.ValueObjects.NetworkActor", "Actor", b1 =>

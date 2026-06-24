@@ -9,7 +9,7 @@ namespace CyberSOC.Persistence
     public static class PersistenceServiceCollectionExtensions
     {
         public static IServiceCollection AddCyberSocPersistence(
-            this IServiceCollection services, IConfiguration configuration)
+         this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("CyberSocDb")
                 ?? throw new InvalidOperationException(
@@ -21,6 +21,7 @@ namespace CyberSOC.Persistence
 
             services.AddScoped<ISecurityEventRepository, SecurityEventRepository>();
             services.AddScoped<IAlertRepository, AlertRepository>();
+            services.AddScoped<IIndicatorRepository, IndicatorRepository>();
 
             return services;
         }

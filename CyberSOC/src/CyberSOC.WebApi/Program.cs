@@ -1,8 +1,11 @@
+using CyberSOC.Application.Common.Interfaces;
 using CyberSOC.Infrastructure;
 using CyberSOC.Persistence;
 using CyberSOC.Shared.Behaviors;
 using CyberSOC.Shared.Cqrs;
 using CyberSOC.WebApi.Endpoints;
+using CyberSOC.WebApi.Hubs;
+using CyberSOC.WebApi.Notifications;
 using FluentValidation;
 using Serilog;
 using System.Reflection;
@@ -25,8 +28,24 @@ builder.Services.AddCyberSocPipelineBehavior(typeof(LoggingBehavior<,>));
 builder.Services.AddCyberSocPipelineBehavior(typeof(ValidationBehavior<,>));
 
 // --- Infrastructure & Persistence ---
-builder.Services.AddCyberSocInfrastructure();
+// --- Infrastructure & Persistence ---
+builder.Services.AddCyberSocInfrastructure(builder.Configuration);
 builder.Services.AddCyberSocPersistence(builder.Configuration);
+// --- Real-time push to the dashboard (free, built into ASP.NET Core) ---
+builder.Services.AddSignalR();
+builder.Services.AddScoped<IAlertBroadcaster, SignalRAlertBroadcaster>();
+// Dashboard runs on a different origin during local dev (e.g. React on :3000);
+// SignalR needs credentials allowed explicitly rather than a wildcard origin.
+var dashboardOrigins = builder.Configuration.GetSection("Cors:DashboardOrigins").Get<string[]>()
+    ?? new[] { "https://localhost:7297" };
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Dashboard", policy => policy
+        .WithOrigins(dashboardOrigins)
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials());
+});
 
 // --- API plumbing ---
 builder.Services.AddEndpointsApiExplorer();
@@ -49,9 +68,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSerilogRequestLogging();
-
+app.UseCors("Dashboard");
 app.MapIngestionEndpoints();
-
+app.MapThreatIntelEndpoints();
+app.MapAlertsEndpoints();
+app.MapHub<AlertsHub>("/hubs/alerts");
 app.Run();
 
 // Needed so WebApplicationFactory<Program> works in integration tests.

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CyberSOC.Persistence.Migrations
 {
     [DbContext(typeof(CyberSocDbContext))]
-    [Migration("20260624024051_InitialCreate")]
+    [Migration("20260624045340_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -130,6 +130,40 @@ namespace CyberSOC.Persistence.Migrations
                         .HasDatabaseName("IX_SecurityEvents_Timestamp");
 
                     b.ToTable("SecurityEvents", (string)null);
+                });
+
+            modelBuilder.Entity("CyberSOC.Domain.ThreatIntel.IndicatorOfCompromise", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Confidence")
+                        .HasColumnType("int");
+
+                    b.Property<DateTimeOffset>("FirstSeen")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("LastSeen")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("Source")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tags")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Indicators");
                 });
 
             modelBuilder.Entity("CyberSOC.Domain.Entities.SecurityEvent", b =>

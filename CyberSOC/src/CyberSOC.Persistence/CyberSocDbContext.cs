@@ -1,4 +1,5 @@
 ﻿using CyberSOC.Domain.Entities;
+using CyberSOC.Domain.ThreatIntel;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -10,7 +11,7 @@ namespace CyberSOC.Persistence
 
         public DbSet<SecurityEvent> SecurityEvents => Set<SecurityEvent>();
         public DbSet<Alert> Alerts => Set<Alert>();
-
+        public DbSet<IndicatorOfCompromise> Indicators => Set<IndicatorOfCompromise>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CyberSocDbContext).Assembly);

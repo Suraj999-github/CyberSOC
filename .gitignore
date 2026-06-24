@@ -88,3 +88,10 @@ Testing/
 /CyberSOC/tests/CyberSOC.ArchitectureTests/bin
 /CyberSOC/tests/CyberSOC.IntegrationTests/bin
 /CyberSOC/tests/CyberSOC.UnitTests/bin
+/CyberSOC/src/CyberSOC.Domain/bin
+/CyberSOC/src/CyberSOC.Domain/bin
+/CyberSOC/src/CyberSOC.WebApi/bin
+/CyberSOC/frontend/CyberSOC.Web/obj
+/CyberSOC/frontend/CyberSOC.Web/bin
+/CyberSOC/src/CyberSOC.Infrastructure/bin
+/CyberSOC/src/CyberSOC.WebApi/bin
