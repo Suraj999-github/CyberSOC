@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|solutionrelative:src\\cybersoc.domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\hubs\\alertshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\hubs\\alertshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\cybersoc.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\cybersoc.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|d:\\my workspace\\cybersoc\\cybersoc\\frontend\\cybersoc.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{207AE75E-4B0C-441E-AC77-29EBEDAD78A2}|frontend\\CyberSOC.Web\\CyberSOC.Web.csproj|solutionrelative:frontend\\cybersoc.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.domain\\detection\\rules\\apiratethresholdrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|solutionrelative:src\\cybersoc.domain\\detection\\rules\\apiratethresholdrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\notifications\\signalralertbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\notifications\\signalralertbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\cybersocdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\cybersocdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}|src\\CyberSOC.Infrastructure\\CyberSOC.Infrastructure.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.infrastructure\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}|src\\CyberSOC.Infrastructure\\CyberSOC.Infrastructure.csproj|solutionrelative:src\\cybersoc.infrastructure\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,157 +43,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\appsettings.json",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\appsettings.json",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-24T08:12:44.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.js",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\wwwroot\\js\\site.js",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAYwIQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-24T08:10:53.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABcBAAAAAAAAAADwv0kBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-24T08:10:38.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T08:10:10.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwM4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T08:09:52.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlertsHub.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Hubs\\AlertsHub.cs",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\Hubs\\AlertsHub.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Hubs\\AlertsHub.cs",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\Hubs\\AlertsHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Domain\\Enums\\Enums.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Domain\\Enums\\Enums.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Domain\\Enums\\Enums.cs",
+              "RelativeToolTip": "src\\CyberSOC.Domain\\Enums\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:09:28.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CyberSOC.Web",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\CyberSOC.Web.csproj",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\CyberSOC.Web.csproj",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\CyberSOC.Web.csproj",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\CyberSOC.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T08:02:32.743Z",
+              "WhenOpened": "2026-06-24T09:01:06.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Program.cs",
-              "RelativeDocumentMoniker": "frontend\\CyberSOC.Web\\Program.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\frontend\\CyberSOC.Web\\Program.cs",
-              "RelativeToolTip": "frontend\\CyberSOC.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA7AAAAAAAAAA==",
+              "Title": "InfrastructureServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:02:30.166Z",
+              "WhenOpened": "2026-06-24T09:00:57.735Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApiRateThresholdRule.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Domain\\Detection\\Rules\\ApiRateThresholdRule.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Domain\\Detection\\Rules\\ApiRateThresholdRule.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Domain\\Detection\\Rules\\ApiRateThresholdRule.cs",
-              "RelativeToolTip": "src\\CyberSOC.Domain\\Detection\\Rules\\ApiRateThresholdRule.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwCoAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:53:31.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IngestSecurityEventCommandHandler.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
-              "RelativeToolTip": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwHgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:53:00.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SignalRAlertBroadcaster.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\Notifications\\SignalRAlertBroadcaster.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\Notifications\\SignalRAlertBroadcaster.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\Notifications\\SignalRAlertBroadcaster.cs",
-              "RelativeToolTip": "src\\CyberSOC.WebApi\\Notifications\\SignalRAlertBroadcaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:52:53.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CyberSocDbContextFactory.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
-              "RelativeToolTip": "src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T07:52:46.796Z"
             }
           ]
         },

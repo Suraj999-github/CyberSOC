@@ -1,6 +1,6 @@
 # CyberSOC
 Cybersecurity Command Center (CyberSOC)
-
+```
 CyberSOC/
 ├── src/
 │   ├── CyberSOC.Domain/                 # Entities, ValueObjects, DomainEvents, Specifications
@@ -27,3 +27,4 @@ CyberSOC/
     ├── ADRs/                            # Architecture Decision Records
     ├── ERD.png
     └── api-spec.yaml
+```

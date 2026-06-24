@@ -1,6 +1,6 @@
 ﻿using CyberSOC.Domain.ThreatIntel;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CyberSOC.Persistence.Configurations
 {
