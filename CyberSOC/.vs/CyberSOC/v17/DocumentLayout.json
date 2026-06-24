@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\configurations\\securityeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\configurations\\securityeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\persistenceservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\persistenceservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\cybersocdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\cybersocdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\cybersoc.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\cybersoc.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\cybersocdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\cybersocdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\cqrs\\dispatcherservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +43,12 @@
       "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\cqrs\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\cybersocdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\cybersocdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\persistenceservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\persistenceservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\cybersoc.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\cybersoc.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\repositories\\alertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\repositories\\alertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\configurations\\securityeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\configurations\\securityeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.persistence\\configurations\\alertconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFEACA46-B086-4954-A896-C96496BA3406}|src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj|solutionrelative:src\\cybersoc.persistence\\configurations\\alertconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.webapi\\cybersoc.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D269B6F4-67FC-453C-8CD4-5D2FD6AC4FB0}|src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj|solutionrelative:src\\cybersoc.webapi\\cybersoc.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\cybersoc.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -69,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.domain\\valueobjects\\networkactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F312CE67-322C-4B33-9D53-6A6F10B4E3F5}|src\\CyberSOC.Domain\\CyberSOC.Domain.csproj|solutionrelative:src\\cybersoc.domain\\valueobjects\\networkactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}|src\\CyberSOC.Infrastructure\\CyberSOC.Infrastructure.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.infrastructure\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B134E5-1FDD-46A6-AE2B-5BC0454973C5}|src\\CyberSOC.Infrastructure\\CyberSOC.Infrastructure.csproj|solutionrelative:src\\cybersoc.infrastructure\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,71 +80,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DispatcherServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:40:39.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRequest.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
-              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:40:37.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AlertRepository.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
-              "RelativeToolTip": "src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:38:21.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CyberSOC.Persistence",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj",
-              "RelativeToolTip": "src\\CyberSOC.Persistence\\CyberSOC.Persistence.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T01:37:23.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISecurityEventRepository.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
-              "RelativeToolTip": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:37:05.641Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -171,20 +102,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "CyberSocDbContextFactory.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
+              "RelativeToolTip": "src\\CyberSOC.Persistence\\CyberSocDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:56:02.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISecurityEventRepository.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "RelativeToolTip": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:37:05.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\Program.cs",
               "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\Program.cs",
               "RelativeToolTip": "src\\CyberSOC.WebApi\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T01:11:12.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "CyberSOC.WebApi",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
+              "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
+              "RelativeToolTip": "src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-24T01:10:53.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\appsettings.json",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\CyberSOC.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T01:20:02.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersistenceServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:24:19.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:40:37.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecurityEventConfiguration.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
+              "RelativeToolTip": "src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wBIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:23:37.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlertRepository.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
+              "RelativeToolTip": "src\\CyberSOC.Persistence\\Repositories\\AlertRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:38:21.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AlertConfiguration.cs",
               "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Configurations\\AlertConfiguration.cs",
               "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\Configurations\\AlertConfiguration.cs",
@@ -197,41 +232,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\appsettings.json",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\CyberSOC.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-24T01:20:02.056Z",
+              "DocumentIndex": 8,
+              "Title": "DispatcherServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:40:39.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CyberSocDbContext.cs",
               "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContext.cs",
               "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\CyberSocDbContext.cs",
               "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\CyberSocDbContext.cs",
               "RelativeToolTip": "src\\CyberSOC.Persistence\\CyberSocDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T01:04:02.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersistenceServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\CyberSOC.Persistence\\PersistenceServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:24:19.315Z",
               "EditorCaption": ""
             },
             {
@@ -262,19 +284,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SecurityEventConfiguration.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
-              "RelativeToolTip": "src\\CyberSOC.Persistence\\Configurations\\SecurityEventConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:23:37.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
               "Title": "IngestSecurityEventCommand.cs",
               "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommand.cs",
@@ -301,19 +310,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CyberSOC.WebApi",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
-              "RelativeDocumentMoniker": "src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
-              "RelativeToolTip": "src\\CyberSOC.WebApi\\CyberSOC.WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T01:10:53.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
               "Title": "NetworkActor.cs",
               "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Domain\\ValueObjects\\NetworkActor.cs",
@@ -323,19 +319,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T01:25:23.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InfrastructureServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\CyberSOC.Infrastructure\\InfrastructureServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T01:24:37.421Z",
               "EditorCaption": ""
             }
           ]

@@ -46,8 +46,8 @@ namespace CyberSOC.Persistence.Configurations
                          ?? new Dictionary<string, string>());
 
             // Hot-path indexes: detection rules query by IP + time window constantly.
-            builder.HasIndex("ActorIp", nameof(SecurityEvent.Timestamp))
-                .HasDatabaseName("IX_SecurityEvents_ActorIp_Timestamp");
+            //builder.HasIndex("ActorIp", nameof(SecurityEvent.Timestamp))
+            //    .HasDatabaseName("IX_SecurityEvents_ActorIp_Timestamp");
             builder.HasIndex(e => e.Timestamp)
                 .HasDatabaseName("IX_SecurityEvents_Timestamp");
 
