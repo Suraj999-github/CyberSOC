@@ -79,3 +79,5 @@ Testing/
 /CyberSOC/tests/CyberSOC.IntegrationTests/obj
 /CyberSOC/tests/CyberSOC.UnitTests/obj
 /CyberSOC/.vs
+/CyberSOC/src/CyberSOC.Application/obj
+/CyberSOC/.vs
