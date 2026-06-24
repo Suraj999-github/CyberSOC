@@ -1,0 +1,6 @@
+@CyberSOC.WebApi_HostAddress = http://localhost:5195
+
+GET {{CyberSOC.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

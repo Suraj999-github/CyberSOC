@@ -81,3 +81,10 @@ Testing/
 /CyberSOC/.vs
 /CyberSOC/src/CyberSOC.Application/obj
 /CyberSOC/.vs
+/CyberSOC/src/CyberSOC.Application/bin
+/CyberSOC/src/CyberSOC.Persistence/bin
+/CyberSOC/src/CyberSOC.Shared/bin
+/CyberSOC/src/CyberSOC.Workers/bin
+/CyberSOC/tests/CyberSOC.ArchitectureTests/bin
+/CyberSOC/tests/CyberSOC.IntegrationTests/bin
+/CyberSOC/tests/CyberSOC.UnitTests/bin
