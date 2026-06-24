@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CyberSOC.Domain.Enums;
+using CyberSOC.Shared.Common;
+using CyberSOC.Shared.Cqrs;
+using FluentValidation;
 
 namespace CyberSOC.Application.Ingestion.Commands.IngestSecurityEvent
 {

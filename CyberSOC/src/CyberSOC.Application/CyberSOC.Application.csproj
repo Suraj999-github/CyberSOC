@@ -5,5 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.9.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\CyberSOC.Domain\CyberSOC.Domain.csproj" />
+	  <ProjectReference Include="..\CyberSOC.Shared\CyberSOC.Shared.csproj" />
+	</ItemGroup>
 
 </Project>

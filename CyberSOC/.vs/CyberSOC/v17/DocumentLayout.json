@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\ingestion\\commands\\ingestsecurityevent\\ingestsecurityeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681C3ED4-7180-49C7-A5F6-3852A82EE81D}|src\\CyberSOC.Application\\CyberSOC.Application.csproj|solutionrelative:src\\cybersoc.application\\common\\interfaces\\isecurityeventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\cqrs\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\cqrs\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\cqrs\\dispatcherservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\cqrs\\dispatcherservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\cqrs\\dispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\cqrs\\dispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|d:\\my workspace\\cybersoc\\cybersoc\\src\\cybersoc.shared\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B20B9A-904B-436B-A776-34DD50324434}|src\\CyberSOC.Shared\\CyberSOC.Shared.csproj|solutionrelative:src\\cybersoc.shared\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +67,123 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IngestSecurityEventCommandHandler.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
+              "RelativeToolTip": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommandHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:52:54.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngestSecurityEventCommand.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommand.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommand.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommand.cs",
+              "RelativeToolTip": "src\\CyberSOC.Application\\Ingestion\\Commands\\IngestSecurityEvent\\IngestSecurityEventCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:51:58.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISecurityEventRepository.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "RelativeToolTip": "src\\CyberSOC.Application\\Common\\Interfaces\\ISecurityEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:51:49.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:50:16.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DispatcherServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\DispatcherServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:50:09.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dispatcher.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\Dispatcher.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Cqrs\\Dispatcher.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Cqrs\\Dispatcher.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Cqrs\\Dispatcher.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:50:01.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Common\\Result.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Common\\Result.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Common\\Result.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:49:58.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:49:40.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Behaviors\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "src\\CyberSOC.Shared\\Behaviors\\LoggingBehavior.cs",
+              "ToolTip": "D:\\MY WORKSPACE\\CyberSOC\\CyberSOC\\src\\CyberSOC.Shared\\Behaviors\\LoggingBehavior.cs",
+              "RelativeToolTip": "src\\CyberSOC.Shared\\Behaviors\\LoggingBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:49:26.922Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,9 +1,9 @@
 ﻿using CyberSOC.Application.Common.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CyberSOC.Domain.Detection;
+using CyberSOC.Domain.Entities;
+using CyberSOC.Domain.ValueObjects;
+using CyberSOC.Shared.Common;
+using CyberSOC.Shared.Cqrs;
 
 namespace CyberSOC.Application.Ingestion.Commands.IngestSecurityEvent
 {
