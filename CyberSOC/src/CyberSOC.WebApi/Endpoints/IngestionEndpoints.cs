@@ -1,5 +1,6 @@
 ﻿using CyberSOC.Application.Ingestion.Commands.IngestSecurityEvent;
 using CyberSOC.Domain.Enums;
+using CyberSOC.Domain.IdentityAccess;
 using CyberSOC.Shared.Cqrs;
 
 namespace CyberSOC.WebApi.Endpoints
@@ -8,7 +9,8 @@ namespace CyberSOC.WebApi.Endpoints
     {
         public static IEndpointRouteBuilder MapIngestionEndpoints(this IEndpointRouteBuilder app)
         {
-            var group = app.MapGroup("/api/events").WithTags("Ingestion");
+            var group = app.MapGroup("/api/events").WithTags("Ingestion")
+                .RequireAuthorization(policy => policy.RequireRole(Roles.SecurityEngineer, Roles.Administrator));
 
             group.MapPost("/", async (IngestEventRequest request, IDispatcher dispatcher, CancellationToken ct) =>
             {
@@ -36,7 +38,6 @@ namespace CyberSOC.WebApi.Endpoints
             return app;
         }
     }
-
     /// <summary>Request DTO — kept separate from the Application Command so the wire
     /// contract can evolve independently of internal CQRS shapes.</summary>
     public sealed record IngestEventRequest(
@@ -47,6 +48,6 @@ namespace CyberSOC.WebApi.Endpoints
         string TargetResource,
         EventOutcome Outcome,
         string? RawPayload,
-        Dictionary<string, string>? Attributes);
+        Dictionary<string, string>? Attributes);  
 
 }

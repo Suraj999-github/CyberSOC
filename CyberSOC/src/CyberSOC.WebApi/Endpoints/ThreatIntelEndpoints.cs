@@ -1,4 +1,5 @@
 ﻿using CyberSOC.Application.ThreatIntel.UpsertIndicator;
+using CyberSOC.Domain.IdentityAccess;
 using CyberSOC.Domain.ThreatIntel;
 using CyberSOC.Shared.Cqrs;
 
@@ -8,7 +9,8 @@ namespace CyberSOC.WebApi.Endpoints
     {
         public static IEndpointRouteBuilder MapThreatIntelEndpoints(this IEndpointRouteBuilder app)
         {
-            var group = app.MapGroup("/api/threat-intel/indicators").WithTags("ThreatIntel");
+            var group = app.MapGroup("/api/threat-intel/indicators").WithTags("ThreatIntel")
+                .RequireAuthorization(policy => policy.RequireRole(Roles.SecurityEngineer, Roles.Administrator));
 
             group.MapPost("/", async (UpsertIndicatorRequest request, IDispatcher dispatcher, CancellationToken ct) =>
             {

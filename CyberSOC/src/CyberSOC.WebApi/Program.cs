@@ -1,14 +1,20 @@
 using CyberSOC.Application.Common.Interfaces;
 using CyberSOC.Infrastructure;
 using CyberSOC.Persistence;
+using CyberSOC.Persistence.Identity;
 using CyberSOC.Shared.Behaviors;
 using CyberSOC.Shared.Cqrs;
 using CyberSOC.WebApi.Endpoints;
 using CyberSOC.WebApi.Hubs;
+using CyberSOC.WebApi.Identity;
 using CyberSOC.WebApi.Notifications;
 using FluentValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +37,66 @@ builder.Services.AddCyberSocPipelineBehavior(typeof(ValidationBehavior<,>));
 // --- Infrastructure & Persistence ---
 builder.Services.AddCyberSocInfrastructure(builder.Configuration);
 builder.Services.AddCyberSocPersistence(builder.Configuration);
+
+// --- Identity (free, built into ASP.NET Core) + JWT bearer auth ---
+builder.Services
+    .AddIdentityCore<ApplicationUser>(options =>
+    {
+        // Reasonable defaults for an internal SOC tool; tighten per your org's policy.
+        options.Password.RequiredLength = 10;
+        options.Password.RequireNonAlphanumeric = true;
+        options.User.RequireUniqueEmail = true;
+        options.Lockout.MaxFailedAccessAttempts = 5;
+        options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+    })
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<CyberSocDbContext>()
+    .AddSignInManager();
+
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+var jwtSection = builder.Configuration.GetSection("Jwt");
+var jwtSigningKey = jwtSection["SigningKey"]
+    ?? throw new InvalidOperationException("Jwt:SigningKey is not configured.");
+builder.Services
+    .AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = jwtSection["Issuer"],
+            ValidateAudience = true,
+            ValidAudience = jwtSection["Audience"],
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSigningKey)),
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.FromSeconds(30)
+        };
+
+        // SignalR clients (browsers) can't set an Authorization header on the
+        // WebSocket handshake — the JS client sends the token as a query
+        // string param instead, so read it from there for hub requests only.
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var accessToken = context.Request.Query["access_token"];
+                var path = context.HttpContext.Request.Path;
+                if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/hubs/alerts"))
+                {
+                    context.Token = accessToken;
+                }
+                return Task.CompletedTask;
+            }
+        };
+    });
+
+builder.Services.AddAuthorization();
+
 // --- Real-time push to the dashboard (free, built into ASP.NET Core) ---
 builder.Services.AddSignalR();
 builder.Services.AddScoped<IAlertBroadcaster, SignalRAlertBroadcaster>();
@@ -57,6 +123,31 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1",
         Description = "Ingestion, Detection, and Alerting API for the Cybersecurity Command Center."
     });
+
+    // Lets you click "Authorize" in Swagger UI and paste a Bearer token.
+    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description = "Enter: Bearer {your JWT}"
+    });
+    c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
 });
 
 var app = builder.Build();
@@ -69,10 +160,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseSerilogRequestLogging();
 app.UseCors("Dashboard");
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+await IdentitySeeder.SeedAsync(app.Services);
+
+app.MapAuthEndpoints();
+app.MapUserEndpoints();      // /api/users  — CRUD + activate/deactivate + roles
+app.MapPasswordEndpoints();  // /api/password/change, /api/users/{id}/password/*
+app.MapAccountEndpoints();   // /api/users/{id}/lockout/*, /api/me
+
 app.MapIngestionEndpoints();
 app.MapThreatIntelEndpoints();
 app.MapAlertsEndpoints();
 app.MapHub<AlertsHub>("/hubs/alerts");
+
 app.Run();
 
 // Needed so WebApplicationFactory<Program> works in integration tests.

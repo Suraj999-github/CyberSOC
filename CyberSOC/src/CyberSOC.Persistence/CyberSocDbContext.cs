@@ -1,11 +1,12 @@
 ﻿using CyberSOC.Domain.Entities;
 using CyberSOC.Domain.ThreatIntel;
+using CyberSOC.Persistence.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 
 namespace CyberSOC.Persistence
 {
-    public sealed class CyberSocDbContext : DbContext
+    public sealed class CyberSocDbContext : IdentityDbContext<ApplicationUser>
     {
         public CyberSocDbContext(DbContextOptions<CyberSocDbContext> options) : base(options) { }
 

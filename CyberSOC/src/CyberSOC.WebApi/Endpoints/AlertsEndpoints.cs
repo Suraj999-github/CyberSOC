@@ -1,4 +1,5 @@
-﻿using CyberSOC.Persistence;
+﻿using CyberSOC.Domain.IdentityAccess;
+using CyberSOC.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace CyberSOC.WebApi.Endpoints
@@ -7,7 +8,9 @@ namespace CyberSOC.WebApi.Endpoints
     {
         public static IEndpointRouteBuilder MapAlertsEndpoints(this IEndpointRouteBuilder app)
         {
-            var group = app.MapGroup("/api/alerts").WithTags("Alerts");
+            var group = app.MapGroup("/api/alerts").WithTags("Alerts")
+                .RequireAuthorization(policy => policy.RequireRole(
+                    Roles.Analyst, Roles.SecurityEngineer, Roles.Manager, Roles.Administrator, Roles.Auditor));
 
             group.MapGet("/", async (CyberSocDbContext db, string? sourceIp, int take) =>
             {
@@ -41,5 +44,6 @@ namespace CyberSOC.WebApi.Endpoints
             return app;
         }
     }
+
 
 }
